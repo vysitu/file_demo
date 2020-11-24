@@ -1,3 +1,7 @@
+# declare libraries needed
+import numpy as np
+import pandas as pd
+
 def getBoundInd(series, minB, maxB):
     '''if series is 0~360, automatically convert to -180~180'''
     if np.max(series) > 200:
@@ -12,3 +16,4 @@ def getBoundInd(series, minB, maxB):
             return(minInd, maxInd)
     except:
         print('Error')
+
