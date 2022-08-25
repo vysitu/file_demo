@@ -1,0 +1,19 @@
+Version4:
+https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/464/
+Satellites: 
+- NOAA - [7,9,11,14,16,18,19]
+
+Version5:
+https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/465/
+Satellites:
+- MetOp 1
+- NOAA - [7,9,11,14,16,18,19]
+
+Product is $SAT_$PRODUCT_$FORMAT
+Default format is HDF and code is omitted from folder names. 
+If the $FORMAT code is "_NC": NetCDF format 
+
+AVH02C1: AVHRR Top-of-Atmosphere Reflectance Daily L3 Global 0.05Deg CMG
+AVH09C1: AVHRR Atmospherically Corrected Surface Reflectance Daily L3 Global 0.05Deg CMG
+AVH13C1: AVHRR Atmospherically Corrected Normalized Difference Vegetation Index Daily L3 Global 0.05Deg CMG
+AVH15C1: AVHRR Atmospherically Corrected Leaf AreaIndex and Fraction of Absorbed Photosynthetically Active Radiation Daily L3 Global 0.05Deg CMG NetCDF
